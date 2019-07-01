@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cabin', sans-serif;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.menu {
+	height: 100px;
+	/*background-color: #B2D6FF;*/
+	/*background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/background-hd-themes-8.jpg);*/
+	background-image: url(https://pilbox.themuse.com/image.png?url=https%3A%2F%2Fassets.themuse.com%2Fuploaded%2Fattachments%2F18610.png%3Fv%3Dd68d7066702c9108235059162f9d1be69919cc9348c3acfb10f169a07639b035&prog=1&w=780);
+	background-size: cover;
+}
+
+.sidebar {
+	height: 350px;
+	width: 300px;
+	/*background-color: #F09A9D;*/
+	background-image: url(https://cdn.everydaypower.com/wp-content/uploads/2016/07/Friendship-quotes-about-life-distance-and-time-6-436x500.jpg);
+	background-size: cover;
+	float: left;
+	opacity: 0.8;
+
+}
+
+.content {
+	height: 500px;
+	width: 560px;
+	background-color: #F5CF8E;
+	float: right;
+	padding: 20px;
+	overflow: scroll;
+	opacity: 0.80;
+
+}
+
+body {
+
+	background-image: url(https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1533&q=80);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1	{
+
+	color: #97ebdb;
+	text-align: center;
+	padding-top: 30px;
+	
+
+}
+p {
+	margin-bottom: 20px;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.footer	{
+	clear: both;
+	/*height: 200px;*/
+	background-color: #D6E9FE;
+	border: 1px solid red;
+	overflow: auto;
+	opacity: 0.9;
+
+
+}
+
+.column {
+	background-color: #B2D6FF;
+	height: 160px;
+	width: 30%;
+	margin: 20px 1.16%;
+	float: left; 
+	overflow: hidden;
+	border-radius: 5px;
+	
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: blue;
+
+	background-image: url("img1.jpg");
+	background-position: center;
+	background-size: cover;
+	
+}
+
+
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+}
+/*.clear {
+	overflow: auto;
+}*/
+
+.clear::after {
+	content: "";
+	clear: both;
+	display: block;
+}
